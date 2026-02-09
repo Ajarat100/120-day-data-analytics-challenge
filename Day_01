@@ -1,0 +1,83 @@
+# Day 1 - Introduction to Data Analytics
+
+**Date:** [Insert Date]  
+**Challenge:** 120-Day Data Analytics Challenge  
+
+---
+
+## What I Learned Today
+
+### 1. Introduction to Data Analytics
+
+**What is Data?**  
+Data is raw information collected from various sources that can be processed to gain insights. It can be numbers, text, images, or even observations.
+
+**Examples of Data:**  
+- Numerical data
+- Textual data  
+- Visual data 
+- Audio data
+
+**Types of Data:**  
+- **Quatitative Data:** Numerical data that can be measured
+- **Unstructured Data:** Descriptive that represents characteristics or qualities 
+
+**Data Formats:**  
+- **Structured Data:** Organized and stored in tables (e.g., Excel, SQL databases)  
+- **Unstructured Data:** Not organized in a specific format (e.g., emails, images, videos, social media posts)  
+- **Semi-structured Data:** Partially organized (e.g., JSON files, XML data)  
+ 
+**Why Data is Important:**  
+- Helps businesses make informed decisions  
+- Identifies patterns and trends  
+- Supports problem-solving and forecasting  
+- Drives strategy and innovation  
+
+---
+
+### 2. What is Data Analytics?
+
+**Definition:**  
+Data analytics is the process of examining raw data to draw meaningful insights and support decision-making.
+
+**Types of Data Analytics:**  
+1. **Descriptive Analytics:** Understanding past data to see what happened (e.g., sales last quarter).  
+2. **Diagnostic Analytics:** Explaining why something happened (e.g., drop in customer engagement).  
+3. **Predictive Analytics:** Using historical data to predict future outcomes (e.g., forecasting demand).  
+4. **Prescriptive Analytics:** Recommending actions based on analysis (e.g., optimizing pricing strategies).  
+
+**Who is a Data Analyst:**  
+A professional who collects, processes, and analyzes data to help organizations make data-driven decisions.
+
+**What a Data Analyst Does (Workflow):**  
+1. **Ask Questions:** Identify business or research problems.  
+2. **Collect Data:** Gather data from databases, surveys, or external sources.  
+3. **Clean Data:** Remove errors, duplicates, and inconsistencies.  
+4. **Analyze Data:** Use statistical methods, visualizations, or tools to find patterns.  
+5. **Visualize & Share Insights:** Create reports, dashboards, or presentations to communicate findings.  
+
+**Where Data Analysts Can Work:**  
+- Tech companies  
+- Finance and banking  
+- Healthcare  
+- Retail and e-commerce  
+- Marketing and advertising  
+- Government and NGOs  
+
+**Key Skills and Tools:**  
+- **Soft Skills:** Data cleaning, statistical analysis, problem-solving, critical thinking, communication  
+- **Tecnical Skills:** Excel, SQL, Python, R, Tableau, Power BI  
+
+---
+
+## Reflections
+
+Today was all about building the foundation. Understanding what data really is, its types, and why it matters made me realize how much I used to overlook.  
+
+Learning about the data analyst workflow clicked for me — seeing how asking the right questions, cleaning data, analyzing it, and sharing insights all connect made the role feel concrete and structured.  
+
+The most eye-opening part was realizing how critical the “before analysis” stage is. Good data and clear questions are just as important as the analysis itself.  
+
+It’s only Day 1, but I already see how important it is to go step by step and not rush ahead. I’m curious to see how this foundation will shape the days ahead.
+
+---
