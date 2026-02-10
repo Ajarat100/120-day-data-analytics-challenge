@@ -1,0 +1,207 @@
+This document captures what I learned today as part of my **120-day data analytics challenge**. The focus was on understanding how data is summarized using measures of **central tendency** and **spread**, what they mean, how they are calculated, and why they matter in real-world situations.
+# Day 2 – Descriptive statistics for Data Analytics
+
+##They are two main categories
+* Measures of Central Tendency 
+* Measures of Spread
+---
+
+## Measures of Central Tendency
+
+Measures of central tendency describe the *center* or *typical value* of a dataset. They help answer the question: **“What does a typical value look like?”**
+
+The three main measures of central tendency are:
+
+* Mean
+* Median
+* Mode
+
+---
+
+### Mean
+
+The **mean** is the average of all numbers
+
+**Definition:**
+The mean is the sum of all values in a dataset divided by the total number of values.
+
+**How it is calculated:**
+
+1. Add all the numbers together
+2. Divide the total by how many numbers there are
+
+**Example:**
+If salaries are: 50, 60, 70
+Mean = (50 + 60 + 70) ÷ 3 = 60
+
+**Real-world applications:**
+
+* Average test scores in a class
+* Average daily sales or revenue
+* Average temperature over a period of time
+
+**Important note:**
+The mean is sensitive to extreme values (outliers). Very large or very small numbers can pull the mean up or down.
+
+---
+
+### Median
+
+The **median** represents the middle value of a dataset when the values are arranged in order.
+
+**Definition:**
+The median is the value that separates the higher half and lower half of a dataset.
+
+**How it is calculated:**
+
+1. Arrange the values in ascending order
+2. If the number of values is odd, the median is the middle number
+3. If the number of values is even, the median is the average of the two middle numbers
+
+**Example:**
+Data: 10, 20, 30, 40, 50
+Median = 30
+
+**Real-world applications:**
+
+* Household income statistics
+* Property prices
+* Any data where outliers are common
+
+**Why it matters:**
+The median is less affected by extreme values and often gives a better sense of a "typical" value when data is skewed.
+
+---
+
+### Mode
+
+The **mode** is the value that appears most frequently in a dataset.
+
+**Definition:**
+The mode is the most common value.
+
+**How it is calculated:**
+
+1. Count how often each value appears
+2. Identify the value with the highest frequency
+
+**Example:**
+Data: 2, 3, 3, 5, 7
+Mode = 3
+
+**Real-world applications:**
+
+* Most common shoe size sold
+* Most frequent customer complaint
+* Popular product categories
+
+**Important note:**
+A dataset can have no mode, one mode, or multiple modes.
+
+---
+
+## Measures of Spread
+
+Measures of spread describe how **spread out** or **varied** the data is. They answer the question: **“How much do the values differ from each other?”**
+
+The three main measures of spread are:
+
+* Range
+* Standard Deviation
+* Interquartile Range (IQR)
+
+---
+
+### Range
+
+The **range** shows the simplest form of spread in a dataset.
+
+**Definition:**
+The range is the difference between the highest and lowest values.
+
+**How it is calculated:**
+
+1. Identify the maximum value
+2. Identify the minimum value
+3. Subtract the minimum from the maximum
+
+Range= Minimum value - Maximum value
+
+**Example:**
+Data: 10, 20, 50
+Range = 50 − 10 = 40
+
+**Real-world applications:**
+
+* Temperature variation in a day
+* Price differences of products
+
+**Limitation:**
+The range is highly affected by outliers and does not show how values are distributed between the extremes.
+
+---
+
+### Standard Deviation
+
+Standard deviation measures how far values tend to be from the mean.
+
+**Definition:**
+Standard deviation shows the average distance of data points from the mean.
+
+**How it is calculated (conceptually):**
+
+1. Find the mean
+2. Calculate how far each value is from the mean
+3. Square those differences
+4. Find the average of the squared differences
+5. Take the square root
+
+**Real-world applications:**
+
+* Financial market volatility
+* Quality control in manufacturing
+* Performance consistency analysis
+
+**Why it matters:**
+A low standard deviation means data points are close to the mean, while a high standard deviation indicates greater variability.
+
+---
+
+### Interquartile Range (IQR)
+
+The **interquartile range** focuses on the middle portion of the data.
+
+**Definition:**
+IQR is the difference between the third quartile (Q3) and the first quartile (Q1).
+
+**How it is calculated:**
+
+1. Arrange data in ascending order
+2. Find Q1 (25th percentile)
+3. Find Q3 (75th percentile)
+4. Subtract Q1 from Q3
+
+Interquartile range= Q1 -Q2
+
+**Example:**
+If Q1 = 20 and Q3 = 60
+IQR = 60 − 20 = 40
+
+**Real-world applications:**
+
+* Income and salary analysis
+* Identifying outliers
+* Understanding the spread of the central 50% of data
+
+**Why it matters:**
+IQR is resistant to outliers and provides a more reliable measure of spread for skewed data.
+
+---
+
+## Key Takeaway
+
+* Measures of central tendency explain where data is centered.
+* Measures of spread explain how data is distributed around that center.
+* Understanding both is necessary to correctly interpret data and avoid misleading conclusions.
+
+This lesson reinforced that summary statistics are most meaningful when used together, not in isolation.
