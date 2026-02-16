@@ -1,0 +1,44 @@
+# Day 8 of 120 with Tina Okonkwo: Excel for Data Analytics
+
+Day 6 & 7 were for rest & reset, so no posts then—but now I’m back at it.
+
+## Today's Focus
+Today I explored **Excel**, revisiting its history, understanding what spreadsheets are, and breaking down its main components. Here’s what I learned in more detail:
+
+### 1. History of Excel
+- Excel was first released by **Microsoft in 1985** for the Macintosh and later for Windows in 1987.  
+- It was designed to make calculations easier than using manual spreadsheets or earlier software like Lotus 1-2-3.  
+- Over the years, Excel evolved to include advanced functions, charts, pivot tables, and tools for data analysis.  
+- Learning about its history made me appreciate why Excel is still widely used despite new analytics software emerging—it’s flexible, accessible, and powerful for organizing and analyzing data.
+
+### 2. What is Excel?
+- Excel is a **spreadsheet program** used to organize, calculate, visualize, and analyze data.  
+- It allows users to perform everything from simple arithmetic to complex data modeling.  
+- As an early-career analyst, I realized Excel is not just a “table tool” but a foundational platform for preparing data before deeper analytics.
+
+### 3. What is a Spreadsheet?
+- A **spreadsheet** is a digital grid of rows and columns where data is stored, manipulated, and analyzed.  
+- Each cell can hold numbers, text, formulas, or functions.  
+- Spreadsheets are flexible: they can be used for accounting, tracking metrics, statistical analysis, and even basic reporting.
+
+#### a. Components of Worksheets
+1. **Worksheets**
+   - A worksheet is a single “page” within an Excel file where you can enter and organize data.  
+   - Each worksheet has a grid of rows and columns.  
+
+2. **Workbook**
+   - A workbook is the entire Excel file, which can contain **multiple worksheets**.  
+   - Workbooks help organize data logically, for example separating months, projects, or datasets into different sheets.  
+
+3. **Ribbon**
+   - The ribbon is the toolbar at the top of Excel with tabs like **Home, Insert, Formulas, Data, Review, View**.  
+   - Each tab contains groups of tools for formatting, calculations, charts, data management, and more.  
+   - Understanding the ribbon makes it easier to navigate Excel and discover tools I didn’t know existed.
+
+## Reflection
+What clicked today was understanding how these components work together. Worksheets, workbooks, and the ribbon are not just names—they define **how data flows and how we interact with it**.  
+Seeing this structure in action makes Excel feel more organized and less intimidating, especially when handling larger datasets.  
+
+Even as an early-career analyst, small insights like these make a difference in efficiency and accuracy when working with data.  
+
+---
