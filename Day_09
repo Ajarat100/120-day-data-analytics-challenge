@@ -1,0 +1,123 @@
+# Day 9 of 120 – Excel for Data Analytics (Continuation)
+
+Today was focused on understanding the foundations of Excel more deeply.
+
+## 1. What Are Formulas?
+
+A formula in Excel is an expression that performs calculations on data. It combines values, cell references, and operators.
+
+### Math Operators
+Used to perform arithmetic calculations:
+- `+` Addition  
+- `-` Subtraction  
+- `*` Multiplication  
+- `/` Division  
+- `^` Exponentiation  
+
+### Comparison Operators
+Used to compare values and return TRUE or FALSE:
+- `=` Equal to  
+- `>` Greater than  
+- `<` Less than  
+- `>=` Greater than or equal to  
+- `<=` Less than or equal to  
+- `<>` Not equal to  
+
+### Cell Referencing
+
+Cell references tell Excel where to get values from.
+
+- **Relative Reference (A1):** Changes when copied to another cell.
+- **Absolute Reference ($A$1):** Locks both the column and row so it does not change when copied.
+- **Mixed Reference ($A1 or A$1):** Locks either the column or the row.
+
+Understanding referencing is important when building reusable formulas across rows and columns.
+
+---
+
+## 2. What Are Functions?
+
+Functions are predefined formulas built into Excel that perform specific tasks.  
+They help simplify calculations and reduce errors.
+
+### Why Use Functions?
+- Save time  
+- Reduce manual calculations  
+- Improve consistency  
+- Handle complex logic efficiently  
+
+Functions are grouped into categories such as Logical, Math, Statistical, Text, and more.
+
+---
+
+## 3. Logical Functions
+
+Logical functions allow Excel to make decisions based on conditions.
+
+### Why Are Logical Functions Needed?
+They help categorize, evaluate, and automate decision-making within datasets.
+
+### Examples:
+
+- **IF:** Returns one value if a condition is TRUE and another if FALSE.
+- **Nested IF:** Multiple IF statements combined to test several conditions.
+- **AND:** Returns TRUE if all conditions are TRUE.
+- **OR:** Returns TRUE if at least one condition is TRUE.
+- **IFS:** Tests multiple conditions without deeply nesting IF statements.
+
+These are useful for grading systems, performance remarks, data classification, etc.
+
+---
+
+## 4. Math Functions
+
+Math functions perform calculations and aggregations.
+
+### Counting Functions
+- **COUNT:** Counts cells with numbers.
+- **COUNTA:** Counts non-empty cells.
+- **COUNTIF:** Counts cells that meet one condition.
+- **COUNTIFS:** Counts cells that meet multiple conditions.
+
+### Summation Functions
+- **SUM:** Adds numbers.
+- **SUMIF:** Adds numbers based on one condition.
+- **SUMIFS:** Adds numbers based on multiple conditions.
+
+### Average Functions
+- **AVERAGE:** Calculates mean.
+- **AVERAGEIF:** Average based on one condition.
+- **AVERAGEIFS:** Average based on multiple conditions.
+
+### Minimum & Maximum
+- **MIN:** Smallest value.
+- **MINIFS:** Smallest value based on condition(s).
+- **MAX:** Largest value.
+- **MAXIFS:** Largest value based on condition(s).
+
+Conditional functions (IF/IFS versions) are especially useful in real-world datasets.
+
+---
+
+## 5. Statistical Functions
+
+Statistical functions summarize and describe data distribution.
+
+- **Mean:** Average value of a dataset.
+- **Median:** Middle value when data is sorted.
+- **Mode:** Most frequent value.
+- **Standard Deviation:** Measures how spread out values are from the mean.
+- **Quartiles:**
+  - Q1 (1st Quartile): 25th percentile
+  - Q2 (2nd Quartile): Median (50th percentile)
+  - Q3 (3rd Quartile): 75th percentile
+
+These functions help understand distribution, variability, and central tendency in data.
+
+---
+
+## Reflection
+
+Today helped me see Excel not just as a spreadsheet tool, but as a system that combines logic, mathematics, and statistics to analyze data.
+
+Still learning. Still building.
