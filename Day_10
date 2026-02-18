@@ -1,0 +1,61 @@
+# Day 10 of 120 with Tina Okonkwo – Excel for Data Analytics (Continuation)
+
+Still on Excel today.
+
+Today’s focus was going deeper into functions that actually make Excel feel powerful instead of just convenient.
+
+## 1. Array Formulas
+
+I explored what array formulas are and the difference between classic and modern arrays.
+
+Classic array formulas require special input and feel more rigid. Modern dynamic arrays automatically “spill” results across cells, which makes working with datasets more flexible and efficient.
+
+Functions I practiced:
+
+- `UNIQUE` – Extracts distinct values from a dataset.
+- `SORT` – Organizes data in ascending or descending order dynamically.
+- `MEDIAN` – Helps measure central tendency without being skewed by outliers.
+- `IF` – Applies logical conditions to return different results based on criteria.
+- `SUMPRODUCT` – Performs calculations across multiple ranges without needing helper columns.
+
+This made Excel feel more like a calculation engine rather than just a grid.
+
+## 2. Lookup Functions
+
+Lookup functions are used to search for specific values in a dataset and return related information.
+
+The key takeaway was how important data structure is. Well-organized tables make lookups efficient and predictable. Poor structure makes them frustrating.
+
+Understanding lookup logic is critical for connecting datasets.
+
+## 3. Text Functions
+
+Real-world data is rarely clean. Text functions help manipulate and clean string data.
+
+Functions practiced:
+
+- `TEXTJOIN` – Combines text from multiple cells with a specified delimiter.
+- `FIND` – Locates the position of a specific character or substring.
+- `MID` – Extracts a portion of text from within a string.
+
+These functions highlighted how much preprocessing often happens before actual analysis begins.
+
+## 4. Date and Time Functions
+
+Dates and times are essential in analysis, especially for tracking trends.
+
+Date functions:
+- `DAY` – Extracts the day from a date.
+- `DATE` – Creates a date from year, month, and day components.
+
+Time functions:
+- `HOUR` – Extracts the hour from a time value.
+- `TIME` – Creates a time value from hour, minute, and second components.
+
+Breaking dates and times into parts makes time-based analysis more structured and intentional.
+
+---
+
+Nothing flashy today — just strengthening foundations.
+
+Excel is starting to feel less like a spreadsheet tool and more like a logic tool.
