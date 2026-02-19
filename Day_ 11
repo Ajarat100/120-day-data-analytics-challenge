@@ -1,0 +1,55 @@
+# Day 11 of 120 with Tina Okonkwo – Excel for Data Analytics (Charts)
+
+Still on Excel this week.
+
+Today’s focus was on charts and data visualization.
+
+## What Are Charts?
+
+Charts are visual representations of data. Instead of reading through rows and columns, charts allow patterns, trends, comparisons, and relationships to be seen more quickly and clearly.
+
+They transform numerical data into visual insights.
+
+## Why Do We Use Charts?
+
+- To identify trends over time.
+- To compare categories.
+- To show proportions within a whole.
+- To reveal relationships between variables.
+- To make insights easier to communicate.
+
+Charts simplify interpretation, especially for non-technical audiences.
+
+## Types of Charts Explored
+
+### Line Chart
+Used to display trends over time. Best for continuous data such as monthly revenue or daily website traffic.
+
+### Pie Chart
+Shows proportions of a whole. Useful for simple percentage breakdowns, though it can become less effective with too many categories.
+
+### Scatter Plot
+Displays the relationship between two numerical variables. Useful for identifying correlations or patterns between variables.
+
+### Map Chart
+Represents geographic data visually. Useful when location plays a role in the analysis.
+
+### Treemap Chart
+Displays hierarchical data as nested rectangles. Helpful for showing category breakdowns within larger groups.
+
+## When to Use Different Charts
+
+The choice of chart depends on the story the data needs to tell:
+
+- Use line charts for trends.
+- Use bar or column charts for comparisons.
+- Use scatter plots for relationships.
+- Use pie charts for simple proportions.
+- Use maps when geography matters.
+- Use treemaps for hierarchical breakdowns.
+
+The key insight today: the same dataset can communicate different messages depending on the visualization selected.
+
+Charts are not just decorative elements added after analysis. They shape interpretation.
+
+Still Excel — but now thinking about how data communicates, not just how it calculates.
