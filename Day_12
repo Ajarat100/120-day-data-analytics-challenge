@@ -1,0 +1,35 @@
+# Day 12 of 120 with Tina Okonkwo – Excel for Data Analytics (Advanced Spreadsheets)
+
+Still on Excel this week.
+
+Today’s focus was on advanced spreadsheet features — particularly structured tables, slicers, and formatting.
+
+## Tables
+
+Tables in Excel are structured data ranges that automatically include filtering, sorting, and structured references. Converting raw data into a table improves organization and makes formulas easier to manage, especially when datasets expand.
+
+Structured references replace standard cell references, which improves readability and reduces errors.
+
+### Table Limitations
+
+While tables are powerful, they have constraints. Certain formatting behaviors and advanced layout customizations may not function the same way as in regular ranges. Understanding these limitations helps avoid confusion when working with larger datasets.
+
+## Tables and Slicers
+
+Slicers provide an interactive way to filter data within tables. Instead of manually applying filters, slicers allow users to visually select categories and dynamically adjust displayed results.
+
+This enhances usability and makes dashboards more interactive.
+
+## Formatting
+
+Formatting improves clarity and readability. Consistent number formats, alignment, spacing, and layout reduce cognitive load when interpreting data.
+
+Good formatting supports analysis rather than distracting from it.
+
+## Conditional Formatting
+
+Conditional formatting highlights patterns, thresholds, and outliers automatically. By visually emphasizing specific values based on rules, it makes trends and anomalies easier to detect.
+
+The key takeaway today: formatting is not just visual polish — it guides interpretation.
+
+Still Excel. Now focusing more on usability and communication within analysis.
