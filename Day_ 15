@@ -1,0 +1,139 @@
+## Day 15 – Building an Interactive Salary Dashboard in Excel
+
+Today I built an interactive Salary Dashboard using a real 2023 data jobs dataset containing 32,000+ records.
+
+### Project Goal
+The objective was to analyze median salaries based on:
+- Job title
+- Country
+- Job schedule type
+
+The final output was an interactive dashboard that updates dynamically based on user-selected filters.
+
+---
+
+## What I Learned
+
+### 1. Structured Tables Change Everything
+
+Converting raw data into structured Excel tables made referencing cleaner and more dynamic.
+
+Instead of static cell references, I worked with structured references like:
+
+jobs[salary_year_avg]
+
+This reduced errors and made formulas easier to scale.
+
+---
+
+### 2. Multi-Criteria Median with Array Logic
+
+I used a multi-criteria `MEDIAN(IF())` array formula to calculate salary insights based on:
+
+- Selected job title
+- Selected country
+- Selected schedule type
+- Excluding zero salary values
+
+This required layering logical conditions inside a single formula.
+
+This was one of the biggest conceptual shifts:
+Instead of calculating one value, I was filtering a dataset inside a formula before aggregating it.
+
+---
+
+### 3. FILTER() and SEARCH() for Cleaning & Refinement
+
+To refine job schedule types, I used:
+
+- `FILTER()` to dynamically extract relevant values
+- `SEARCH()` combined with `ISNUMBER()` to identify matching text patterns
+
+This helped clean inconsistent or mixed schedule labels.
+
+It reinforced that text data often needs logical handling before analysis.
+
+---
+
+### 4. Data Validation for Interactivity
+
+I built dropdown menus using data validation.
+
+These dropdowns controlled:
+- The selected job title
+- The selected country
+- The selected schedule type
+
+The selections fed directly into formulas, which then updated charts automatically.
+
+This is where the dashboard became interactive rather than static.
+
+---
+
+### 5. Connecting Calculations to Visualizations
+
+The dashboard included:
+- A horizontal bar chart for salary comparison by role
+- A map chart to visualize median salaries by country
+
+This required ensuring:
+- Aggregated calculations were accurate
+- Named ranges or references were correctly linked
+- Charts responded dynamically to selection inputs
+
+This was the moment it stopped feeling like separate Excel skills and started feeling like system design.
+
+---
+
+## Technical Challenges
+
+### Excel Version Limitation
+
+Initially, I was using Excel 2019.
+
+Functions like:
+- `UNIQUE()`
+- `SORT()`
+- `FILTER()`
+
+were not available.
+
+After troubleshooting, I realized these functions require newer versions of Excel.
+
+I temporarily switched between desktop and Excel Online before eventually moving to a Microsoft 365 free trial to access full functionality.
+
+---
+
+### Environmental Constraints
+
+While troubleshooting version issues, I also dealt with:
+- Laptop overheating from extended usage
+- Electricity interruptions
+
+This slowed progress but forced me to think about practical adaptability when working on projects.
+
+---
+
+## Key Shift in Thinking
+
+Earlier Excel lessons were about learning functions.
+
+This project was about:
+
+- Structuring logic
+- Connecting sheets
+- Designing input-output flow
+- Ensuring interactivity
+- Debugging systematically
+
+It felt like a move from “using tools” to “building analytical systems.”
+
+---
+
+## Reflection
+
+Day 15 reinforced that building dashboards isn’t about visuals first.
+
+It’s about logic, structure, and flow.
+
+The visuals are just the final layer.
