@@ -1,0 +1,137 @@
+# Day 16 – Pivot Tables & Pivot Charts in Excel
+
+## Overview
+
+Today I focused entirely on Pivot Tables as part of my Excel for Data Analytics journey.
+
+After building a dashboard on Day 15, this felt like strengthening the core analytical engine behind summaries and visualizations.
+
+---
+
+## Pivot Table – Introduction
+
+### What is a Pivot Table?
+
+A pivot table is a tool that restructures raw data into summarized insights without altering the original dataset.
+
+It allows you to:
+- Aggregate values (sum, average, count, etc.)
+- Rearrange categories
+- Compare groups quickly
+- Drill down into details
+
+Instead of writing formulas for each condition, pivot tables summarize data dynamically.
+
+---
+
+## Why Pivot Tables Are Important
+
+Pivot tables are powerful because they:
+
+- Turn thousands of rows into structured summaries
+- Allow fast comparison across categories
+- Support hierarchical breakdowns
+- Connect directly to pivot charts for visualization
+
+They reduce complexity and make exploratory analysis easier.
+
+---
+
+## Practical Work – Basic Pivot Table Analysis
+
+### 1. Calculating Average Salary
+
+Using the PivotTable Analyze tab, I:
+- Dragged job titles into rows
+- Placed salary into values
+- Changed aggregation from Sum to Average
+
+This allowed me to compare average salaries by job title.
+
+---
+
+### 2. Layout Changes (Design Tab)
+
+I experimented with:
+- Compact layout
+- Tabular layout
+- Report layout adjustments
+
+Changing layout affects readability and clarity, especially when sharing analysis.
+
+---
+
+### 3. Monthly Job Count by Job Title
+
+Using job_posted_date, I:
+- Counted job postings
+- Grouped them by month
+- Compared trends across job titles
+
+This showed how demand fluctuates over time.
+
+---
+
+## Pivot Table – Advanced Concepts
+
+### 1. Hierarchies
+
+I analyzed:
+- Salary by Country
+- Then drilled down into Job Title within each country
+
+This layered structure helps identify patterns across regions and roles.
+
+---
+
+### 2. Automatic Grouping
+
+Excel automatically grouped dates into months and years.
+
+This simplifies time-based analysis without extra formulas.
+
+---
+
+### 3. Manual Grouping
+
+I manually grouped selected job titles into clusters.
+
+This helps when categories need custom grouping beyond raw data labels.
+
+---
+
+### 4. Percent Calculations
+
+I calculated:
+- Percent of Grand Total
+- Percent of Job Title
+
+This shifted the analysis from raw counts to proportional insight, making comparisons clearer.
+
+---
+
+## Pivot Charts & Slicers
+
+I built:
+
+- A Top Paying Jobs chart
+- A Highest Job Demand chart
+- A Monthly Job Count chart
+
+Then I connected slicers to allow dynamic filtering.
+
+This made the charts interactive and responsive to category selection.
+
+---
+
+## Reflection
+
+Day 16 reinforced something important:
+
+Formulas require building logic step-by-step.
+
+Pivot tables allow restructuring data to see patterns quickly.
+
+I am starting to move from calculating numbers to organizing insights.
+
+That feels like progress.
