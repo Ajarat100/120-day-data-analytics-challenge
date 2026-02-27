@@ -1,0 +1,76 @@
+## Day 17 — Advanced Data Analysis in Excel
+
+Today’s focus was on moving beyond summarizing data and starting to explore possible outcomes using Excel’s advanced analytical tools.
+
+### Enabling Add-ins
+
+I enabled:
+
+- Analysis ToolPak  
+- Solver Add-in  
+
+These tools allowed me to perform deeper statistical and scenario-based analysis using the salary dataset.
+
+---
+
+### Forecasting & Scenario Analysis
+
+Using Excel’s built-in tools, I explored how data can be used to model future possibilities.
+
+- **Forecast Sheet**  
+  Used to predict potential job posting trends for the next year.
+
+- **Scenario Manager**  
+  Modeled how total compensation could change over four years under different assumptions.
+
+- **Goal Seek**  
+  Helped determine the annual raise required to reach a specific salary target.
+
+- **Solver**  
+  Calculated the adjustment needed to match a defined compensation goal.
+
+---
+
+### Data Tables
+
+I worked with:
+
+- **One-input data tables**  
+  To understand how a single variable affects salary outcomes.
+
+- **Two-input data tables**  
+  To explore how raise and bonus changes interact and influence salary.
+
+---
+
+### Analysis ToolPak
+
+Using the Analysis ToolPak, I performed exploratory analysis on the salary dataset:
+
+- **Descriptive statistics**  
+  To summarize the overall salary distribution.
+
+- **Histogram**  
+  To visualize the spread of salary values.
+
+- **Rank & Percentile**  
+  To compare salary positions within the dataset.
+
+- **Moving Average**  
+  To smooth job posting trends and reduce seasonality.
+
+---
+
+### Reflection
+
+Today felt like a shift from analyzing what already exists to exploring what could happen.
+
+Instead of only asking:
+
+> What does the data show?
+
+I started asking:
+
+> What would need to change?
+
+This was my first step into using data not just for understanding the past, but for testing future scenarios.
