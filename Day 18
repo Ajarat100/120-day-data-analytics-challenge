@@ -1,0 +1,59 @@
+## Day 18 — Exploring Power Query in Excel
+
+Today I focused on Power Query, which is a game-changer for cleaning, transforming, and preparing data for analysis.
+
+### Power Query Introduction
+
+Power Query allows importing and transforming data from multiple sources efficiently. Key concepts I explored today include:
+
+- **What is Power Query?**  
+  Power Query is a tool in Excel that enables repeatable, automated workflows to clean and transform datasets before analysis.
+
+- **Why Power Query?**  
+  It allows handling large datasets, combining multiple sources, and performing ETL (Extract, Transform, Load) operations without manual formula-based steps.
+
+- **Get & Transform Data:**  
+  I imported datasets from Excel files and web tables (e.g., Wikipedia). This included combining multiple datasets into a single workflow for streamlined analysis.  
+
+- **Large Dataset ETL:**  
+  Learned to import datasets with over 1 million rows, preparing them for analysis efficiently.
+
+- **Web-based Table ETL:**  
+  Imported tables from websites into Power Query and transformed them for use in Excel.
+
+- **Data Source Settings:**  
+  Updated file locations and maintained dynamic connections so that changes in the source automatically reflect in the workflow.
+
+- **Query Options:**  
+  Explored global and current workbook settings, including privacy, load behavior, and formula handling.
+
+---
+
+### Power Query Editor
+
+In the Power Query Editor, I explored the following:
+
+- **View Tab:** Performed exploratory data analysis (EDA) on the job postings dataset, quickly checking for missing values and overall structure.
+
+- **Query Settings:** Renamed queries for clarity, which helps manage multiple tables efficiently.
+
+- **Home Tab:** Changed data types for numerical, text, and date columns to ensure consistency.
+
+- **Transform Tab:** Cleaned text data (trimming, capitalization, removing unnecessary characters).
+
+- **Add Column Tab:**  
+  - Added **date columns** to facilitate time-based analysis.  
+  - Added **numerical columns** for salary calculations and derived metrics.
+
+- **Load & Inspect Data:**  
+  After cleaning and transforming the data, I loaded it back into Excel to inspect and visualize the results. This made it clear how preprocessing affects later analysis.
+
+---
+
+### Reflection
+
+Power Query made it obvious that **data prep is as important as analysis**. Working in a systematic, repeatable way ensures that even large datasets can be prepared efficiently and reliably.  
+
+Instead of jumping straight into formulas, I’m learning to **think about workflows and transformations first**.  
+
+---
