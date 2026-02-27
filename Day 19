@@ -1,0 +1,65 @@
+---
+## Day 19 — Advanced Power Query & M Language
+
+Today I advanced into complex Power Query transformations and explored the M language to automate and optimize workflows.
+
+### Transformations
+
+- **Add Index Column:**  
+  Created index columns to prepare the salary dataset for skill-level analysis, allowing easy row referencing.
+
+- **Duplicate vs Reference Queries:**  
+  Learned the difference:  
+  - **Duplicate:** Creates a copy independent of the original query.  
+  - **Reference:** Creates a query that dynamically links to the original, inheriting its changes.  
+  Used these to create a dedicated skill query without modifying the main salary data.
+
+- **Split & Unpivot Columns:**  
+  Transformed the “job_skill” column from a multi-value field into a structured format suitable for aggregation.
+
+- **Group By:**  
+  Aggregated top skills across job postings to determine which skills were most frequent in the dataset.
+
+- **Conditional Columns:**  
+  Applied logic to clean and categorize skill data for final analysis.
+
+---
+
+### Appending and Merging Queries
+
+- **Append Queries:** Combined monthly job postings into a single consolidated dataset.
+
+- **Merge Queries:** Merged the “data_jobs_skills” dataset with the “data_jobs_salary” dataset for skill-based salary analysis.
+
+- **Join Types:** Learned six types of joins (Left, Right, Inner, Full Outer, Anti, and Semi) and their applications in Power Query.
+
+---
+
+### M Language
+
+- Explored the **Advanced Editor** in Power Query.  
+- Learned the **`let` and `in` keywords** to define sequential transformations.  
+- Every applied step references the previous one, ensuring workflows are deterministic.  
+- Column names require **double quotes** `""` in the code.  
+- Created **Custom Columns** using IF statements and other logic.  
+- Reordered applied steps to optimize workflow and maintain accuracy.  
+
+---
+
+### Final Analysis
+
+- Conducted salary analysis for the **top 10 skills**.  
+- Visualized results using a **clustered combo chart** to show skill demand versus average salary.  
+- These transformations allowed insights into skill trends and compensation patterns across roles.
+
+---
+
+### Reflection
+
+Day 19 reinforced that Power Query is not just about cleaning data—it’s about **building repeatable, scalable workflows** that prepare data for meaningful analysis.  
+
+I learned that every step in data prep must logically feed into the next, and M language provides powerful ways to automate and customize transformations.  
+
+Power Query + M = efficiency, scalability, and better insights from data.
+
+#DataAnalyticsLockedIn #120DaysOfDataWithTina #Datafam
