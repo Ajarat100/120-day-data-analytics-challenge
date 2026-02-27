@@ -1,0 +1,95 @@
+# Excel Data Analysis – Homework 02
+
+## 1. What is the total net revenue generated across all orders?
+
+**Answer: A. $1,265,793**
+
+**How it was calculated:**
+
+Net Revenue per order line:
+
+= UnitPrice * Quantity * (1 - Discount)
+
+Total Net Revenue:
+
+= SUM(NetRevenueColumn)
+
+
+---
+
+## 2. What Excel formula correctly calculates net revenue per order line?
+
+**Answer: C**
+
+= UnitPrice * Quantity * (1 - Discount)
+
+
+---
+
+## 3. What is the Average Order Value (AOV)?
+
+**Answer: C. $587.38**
+
+**Formula used:**
+
+AOV = Total Net Revenue / Number of Unique Orders
+
+To count unique orders (Excel 365):
+
+= COUNTA(UNIQUE(OrderIDRange))
+
+
+---
+
+## 4. How many order lines have a discount greater than 10%?
+
+**Answer: A. 472**
+
+**Formula used:**
+
+= COUNTIF(DiscountRange, ">0.1")
+
+
+---
+
+## 5. On average, how long does it take for an order to be fulfilled?
+
+**Answer: B. 7 days**
+
+**Steps:**
+
+Fulfillment Time:
+
+= ShippedDate - OrderDate
+
+Average Fulfillment Time:
+
+= AVERAGE(FulfillmentDaysRange)
+
+
+---
+
+## 6. What percentage of orders were shipped late?
+
+(Condition: ShippedDate > RequiredDate)
+
+**Answer: A. 4%**
+
+**Steps:**
+
+Create Late Flag column:
+
+= IF(ShippedDate > RequiredDate, 1, 0)
+
+Calculate percentage:
+
+= AVERAGE(LateFlagRange)
+
+
+---
+
+## 7. Which Excel formula correctly flags late orders?
+
+**Answer: B**
+
+= IF(ShippedDate > RequiredDate, 1, 0)
