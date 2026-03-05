@@ -1,0 +1,64 @@
+# Day 23 – Power Pivot (DAX)
+
+## Overview
+Today’s lesson focused on using **DAX (Data Analysis Expressions)** within Power Pivot to perform more advanced analysis inside the Excel data model.
+
+The dataset used for the exercises contained job postings with information about salaries, required skills, and locations.
+
+DAX allowed calculations to be defined directly within the **data model**, enabling more flexible analysis across related tables.
+
+---
+
+## DAX Aggregation
+
+The first concept explored was **DAX aggregation**.
+
+Aggregation functions summarize data across a dataset. In this exercise, we calculated the **average number of skills required per job posting**.
+
+Instead of restructuring the dataset manually, a DAX measure was created to calculate this value directly from the model.
+
+This demonstrated how measures can summarize complex datasets efficiently.
+
+---
+
+## DAX Filters
+
+The next topic focused on **filters in DAX**.
+
+Filters allow calculations to focus on specific subsets of data without modifying the underlying tables.
+
+One example compared **salary levels between U.S. and non-U.S. job postings**.
+
+By adding filter logic inside the DAX measure, the model could isolate salary data for specific regions and perform comparisons.
+
+---
+
+## DAX Advanced: Filters and Relationships
+
+The lesson then moved into more advanced scenarios combining **filters with table relationships**.
+
+Because the dataset contained multiple related tables (such as salary data and job skills), relationships allowed calculations to reference information across these tables.
+
+Using this setup, we calculated **median salary by skill**.
+
+This highlighted how relationships enable more detailed analysis when working with normalized datasets.
+
+---
+
+## DAX Math and Filters
+
+The final exercise involved combining **mathematical operations with filtering logic**.
+
+This was used to estimate **skill likelihood**, which examined how frequently certain skills appear across job postings in the dataset.
+
+By combining math functions with filters, it became possible to identify patterns and probabilities within the dataset.
+
+---
+
+## Reflection
+
+Today’s lesson showed how DAX expands the analytical capabilities of Excel when working with a data model.
+
+Instead of relying only on cell-based formulas, calculations can be defined at the **model level**, making it easier to analyze relationships between multiple datasets.
+
+This approach shifts Excel from simple spreadsheet analysis toward a more structured and scalable data modeling environment.
