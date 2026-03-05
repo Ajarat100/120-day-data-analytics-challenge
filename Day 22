@@ -1,0 +1,136 @@
+# Day 22 – Power Pivot
+
+## Overview
+Today’s lesson focused on using **Power Pivot in Excel** to analyze a job postings dataset containing salary information, required skills, and posting dates.
+
+The goal was to move beyond working with a single spreadsheet and begin thinking about how multiple datasets can be connected and analyzed together.
+
+---
+
+## Power Pivot Introduction
+
+### What is Power Pivot?
+Power Pivot is an Excel feature that allows you to create a **data model** by connecting multiple tables and performing advanced calculations.
+
+Instead of working with a single flat dataset, Power Pivot enables Excel to function more like a relational data environment.
+
+---
+
+### Enabling the Power Pivot Add-in
+The first step was enabling the **Power Pivot Add-in** in Excel.
+
+After enabling it, the **Power Pivot tab** appeared in the Excel ribbon, allowing access to data modeling features.
+
+---
+
+### Importing Data into the Data Model
+Cleaned data from **Power Query** was imported directly into the **Data Model**.
+
+The dataset contained tables such as:
+
+- `data_jobs_salary`
+- `data_jobs_skills`
+
+These tables represent different aspects of job posting data.
+
+---
+
+### Data Cleanup with Power Query
+Before importing into the model, the dataset required cleaning.
+
+The table **`data_jobs_skills`** was modified in Power Query to ensure the data structure was consistent and ready for analysis.
+
+---
+
+### Creating Relationships
+A key step in the process was creating relationships between tables.
+
+For example:
+
+- `data_jobs_salary`
+- `data_jobs_skills`
+
+By connecting these tables, it became possible to analyze salary information alongside required job skills.
+
+This is similar to how relational databases connect multiple datasets.
+
+---
+
+### Initial Analysis
+After creating the relationships, the dataset was used to analyze **top skills required in job postings**.
+
+---
+
+## Working in the Power Pivot Window
+
+### Importing and Cleaning the Data Model
+Inside the Power Pivot window, the data model was reviewed and prepared for analysis.
+
+Two key areas examined were:
+
+- **Job Count**
+- **Median Salary Data Table**
+
+This ensured the dataset was structured properly before calculations were performed.
+
+---
+
+### Measures
+Measures were introduced as a way to calculate values across the dataset.
+
+Examples explored:
+
+- **Median Salary**
+- **Average Salary**
+
+These measures helped summarize salary information across job postings.
+
+---
+
+### Implicit vs Explicit Measures
+
+Two types of measures were discussed:
+
+**Implicit Measures**
+- Automatically generated calculations created by Excel.
+
+**Explicit Measures**
+- Custom measures defined manually in the model.
+
+Both were used to analyze:
+
+- Job counts
+- Median salary trends
+
+---
+
+### Calculated Columns
+Calculated columns allow new values to be created directly in the model.
+
+An example used in the exercise was converting the `salary_year_avg` column into **Euros** using a currency conversion calculation.
+
+---
+
+### Date Tables
+A **date table** was introduced and connected to the `job_posted_date` column.
+
+This allows time-based analysis such as:
+
+- Trends over time
+- Comparisons by day, month, or year
+
+---
+
+### Final Analysis
+Using the connected data model and date table, the dataset was analyzed to observe **job postings by day of the week**.
+
+This demonstrated how combining relationships, measures, and date tables can help reveal patterns in the data.
+
+---
+
+## Reflection
+Today’s lesson highlighted how Power Pivot changes the way Excel can be used for data analysis.
+
+Instead of working with isolated spreadsheets, Power Pivot allows Excel to operate more like a structured data model where multiple tables interact with each other.
+
+This shift from spreadsheet thinking to **data modeling thinking** makes Excel significantly more powerful for analytical work.
